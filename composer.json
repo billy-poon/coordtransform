@@ -1,0 +1,31 @@
+{
+  "name": "billy-poon/coordtransform",
+  "version": "1.0.0",
+  "description": "一个提供了百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换的工具模块。移植自：https://github.com/wandergis/coordtransform/",
+  "keywords": [
+    "coordinate",
+    "wgs84",
+    "bd09",
+    "gcj02",
+    "transform"
+  ],
+  "homepage": "https://github.com/billy-poon/coordtransform",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Billy Poon",
+      "email": "panqbi@yeah.net",
+      "homepage": "https://github.com/billy-poon"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "coordtransform\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
